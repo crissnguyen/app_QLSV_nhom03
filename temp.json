@@ -1,0 +1,19 @@
+{
+    "mssv": "2174802010002",
+    "data": [
+        {
+            "maMH": "SE3070",
+            "tenMH": "Lập trình di động nâng cao",
+            "lyThuyet": 4,
+            "thucHanh": 5,
+            "cuoiKy": 6
+        },
+        {
+            "maMH": "NT1060",
+            "tenMH": "Lập trình mạng căn bản",
+            "lyThuyet": 4,
+            "thucHanh": 5,
+            "cuoiKy": 6
+        }
+    ]
+}

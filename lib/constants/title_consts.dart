@@ -1,0 +1,34 @@
+class TitleConsts {
+  static const String dangnhap = 'Đăng nhập';
+  static const String dangxuat = 'Đăng xuất';
+  static const String welcome = 'Chào mừng bạn !';
+  static const String qlsv = 'QLSV';
+  static const String qlsvFull = 'Quản Lý Sinh Viên';
+  static const String email = 'E-mail';
+  static const String pass = 'Mật khẩu';
+  static const String processData = 'Đang xử lý dữ liệu';
+  static const String mssv = 'MSSV';
+  static const String menu = 'Danh mục';
+  static const String thoikhoabieu = 'Thời khóa biểu';
+  static const String bangdiem = 'Bảng điểm';
+  static const String lichthi = 'Lịch thi';
+  static const String thongbao = 'Thông báo';
+  static const String timkiem = 'Tìm Kiếm';
+  static const String lythuyet = 'Lý thuyết';
+  static const String thuchanh = 'Thực hành';
+  static const String cuoiky = 'Cuối Kỳ';
+  static const String danhsachLophoc = 'Danh sách lớp học';
+  static const String danhsachSV = 'Danh sách sinh viên';
+  static const String thongke = 'Thống kê';
+  static const String back = 'Quay lại';
+  static const String tenMH = 'Tên môn học';
+  static const String maPH = 'Phòng';
+  static const String maCa = 'Ca';
+  static const String thoigianhoc = 'Thời gian học';
+  static const String tu = 'từ';
+  static const String solanDiemDanh = 'Số lần điểm danh';
+  static const String huy = 'Hủy';
+  static const String thaydoi = 'Thay đổi';
+  static const String batDauluc = 'Bắt đầu lúc';
+  static const String lichhocHN = 'Lịch học hôm nay';
+}
