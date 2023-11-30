@@ -1,6 +1,6 @@
 # qlsvnhom3
 
-A new Flutter project.
+Quản Lý Sinh Viên
 
 ## Getting Started
 
