@@ -36,8 +36,25 @@ class _EditGradeStudentFormState extends State<EditGradeStudentForm> {
   void initState() {
     super.initState();
 
-    mssv = widget.mssv;
-    maLop = widget.maLop;
+    setState(() {
+      mssv = widget.mssv;
+      maLop = widget.maLop;
+    });
+  }
+
+  @override
+  void didUpdateWidget(covariant EditGradeStudentForm oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.mssv != widget.mssv) {
+      setState(() {
+        mssv = widget.mssv;
+      });
+    }
+    if (oldWidget.maLop != widget.maLop) {
+      setState(() {
+        maLop = widget.maLop;
+      });
+    }
   }
 
   @override

@@ -20,7 +20,6 @@ class StudentCalenderLoaded extends StudentCalenderEvent {
 
 class StudentCalenderUpdated extends StudentCalenderEvent {
   final StudentCalenderModel studentCalender;
-
   final List<LichMonHoc> danhSach;
 
   const StudentCalenderUpdated({

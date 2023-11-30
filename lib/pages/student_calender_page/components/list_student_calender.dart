@@ -101,7 +101,9 @@ class _ListStudentCalenderState extends State<ListStudentCalender> {
       final tg = element.tgHoc;
 
       if (tg != null) {
-        if (tg.day == selectedDateTime.day) return true;
+        if (tg.day == selectedDateTime.day &&
+            tg.month == selectedDateTime.month &&
+            tg.year == selectedDateTime.year) return true;
       }
       return false;
     }).daDiemDanh;
@@ -112,7 +114,9 @@ class _ListStudentCalenderState extends State<ListStudentCalender> {
     final ixDiemDanh = lichHocHomNay[index].lichHoc?.indexWhere((element) {
           final tg = element.tgHoc;
           if (tg != null) {
-            if (tg.day == selectedDateTime.day) return true;
+            if (tg.day == selectedDateTime.day &&
+                tg.month == selectedDateTime.month &&
+                tg.year == selectedDateTime.year) return true;
           }
           return false;
         }) ??
@@ -122,7 +126,7 @@ class _ListStudentCalenderState extends State<ListStudentCalender> {
         .indexWhere((element) => element.maLop == lichHocHomNay[index].maLop);
 
     if (ixDiemDanh != -1) {
-      print('indexdiemdanh: $index');
+      print('indexMonHoc: $indexMonHoc');
       danhSach[indexMonHoc].lichHoc?[ixDiemDanh].daDiemDanh = diemDanh;
 
       context.read<StudentCalenderBloc>().add(StudentCalenderUpdated(
