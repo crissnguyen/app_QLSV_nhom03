@@ -49,7 +49,7 @@ class _TeacherPageState extends State<TeacherPage> {
         title: Text(teacher.ten ?? ''),
         leading: IconButton(
           tooltip: TitleConsts.menu,
-          icon: const Icon(Icons.accessible),
+          icon: const Icon(Icons.account_circle),
           onPressed: () => _scaffoldKey.currentState?.openDrawer(),
         ),
         actions: [
